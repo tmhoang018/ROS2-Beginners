@@ -1,0 +1,5 @@
+ # Request
+float32 rotation_degree         # Supply angle value to rotate camera
+---
+# Respone 
+sensor_msgs/Image current_image # Spin camera exactly angle and capture image, response it.
